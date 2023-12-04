@@ -1,0 +1,29 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    width: 640px;
+    height: 640px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.black{
+    background-color: black;
+}
+
+.blue.black, .blue.white{
+    background-color: blue;
+}
+
+.white{
+    background-color: white;
+}
+
+.black:hover, .white:hover{
+    background-color: lightblue;
+}
+
+.heading{
+    text-align: center;
+}
