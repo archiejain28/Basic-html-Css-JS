@@ -1,0 +1,12 @@
+#checklist label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div#checklist{
+    height: 100px;
+    width: 123px;
+    border: 1px solid black;
+}
+
